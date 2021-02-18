@@ -3,6 +3,7 @@ import logo from './logo.svg'
 import Componente from './components/Componente'
 import './App.css'
 import Propiedades from './components/Propiedades'
+import Estado from './components/Estado'
 
 function App() {
 	return (
@@ -26,6 +27,7 @@ function App() {
 					<Componente msg='hola soy un componente funcional expresado desde desde una prop' />
 					<Propiedades
 						cadena='Esto es una cadena de texto'
+						numero={19}
 						booleano={false}
 						arreglo={[1, 2, 3]}
 						objeto={{ nombre: 'Jon', correo: 'jonmircha@gmail.com' }}
@@ -35,15 +37,9 @@ function App() {
 							<Componente msg='soy un componente pasado como prop' />
 						}
 					/>
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
+
+					<hr />
+					<Estado />
 				</section>
 			</header>
 		</div>
