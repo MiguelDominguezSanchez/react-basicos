@@ -23,7 +23,7 @@ export default class RenderizadoElementos extends Component {
 		console.log(data)
 		return (
 			<div>
-				<h2>Renderizado de Elmentos</h2>
+				<h2>Renderizado de Elementos</h2>
 				<h3>Estaciones del año</h3>
 				<ol>
 					{this.state.seasons.map((el, index) => (
