@@ -9,6 +9,7 @@ import RenderizadoElementos from './components/RrenderizadoElmentos'
 import { EventosES6, EventosES7, MasSobreEventos } from './components/Eventos'
 import Padre from './components/ComunicacionComponentes'
 import CicloVida from './components/CicloVida'
+import AjaxApis from './components/AjaxApis'
 
 function App() {
 	return (
@@ -29,6 +30,7 @@ function App() {
 					</a>
 				</section>
 				<section>
+					<AjaxApis />
 					<Componente msg='hola soy un componente funcional expresado desde desde una prop' />
 					<Propiedades
 						cadena='Esto es una cadena de texto'
@@ -59,6 +61,7 @@ function App() {
 					<Padre />
 					<hr />
 					<CicloVida />
+					<hr />
 				</section>
 			</header>
 		</div>
