@@ -10,7 +10,7 @@ export default function HooksPersonalizados() {
 
 	return (
 		<Fragment>
-			<h2>Hooks HooksPersonalizados</h2>
+			<h2>Hooks Personalizados</h2>
 			<h3>{JSON.stringify(isPending)}</h3>
 			<h3>
 				<mark>{JSON.stringify(error)}</mark>
